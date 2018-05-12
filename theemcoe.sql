@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
+<<<<<<< HEAD
 -- Generation Time: May 11, 2018 at 11:49 AM
+=======
+-- Generation Time: May 08, 2018 at 07:51 AM
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 -- Server version: 5.7.21
 -- PHP Version: 5.6.35
 
@@ -38,13 +42,18 @@ CREATE TABLE IF NOT EXISTS `achievements` (
   `student_name` varchar(100) NOT NULL,
   `dept` varchar(10) NOT NULL,
   PRIMARY KEY (`achievement_id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=latin1;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 --
 -- Dumping data for table `achievements`
 --
 
 INSERT INTO `achievements` (`achievement_id`, `event_name`, `venue`, `award`, `year`, `student_name`, `dept`) VALUES
+<<<<<<< HEAD
 (1, 'SUPRA', 'BIC NOIDA NEW DELHI\r\n', 'Participation Certificate', '2018', 'TEAM Aviators\r\n', 'auto'),
 (2, 'ISK-2016 GO KART\r\n', 'HYDERABAD\r\n', 'Sixth Rank', '2016', 'TEAM CHETAK\r\n', 'auto'),
 (3, 'ISK-2018 GO KART\r\n', 'VISHAKAPATNAM\r\n', 'Participation Certificate', '2018', 'TEAM TWISTED TORQUE\r\n', 'auto'),
@@ -76,6 +85,11 @@ INSERT INTO `achievements` (`achievement_id`, `event_name`, `venue`, `award`, `y
 (31, '31-ASKAM CADET,JUNIOR,SENIOR MAHARASHTRA STATE KICKBOXING CHAMPIONSHIP', 'BALEWADI PUNE', 'BRONZE ', '2017', 'HUZEFA BARGIR', 'mech'),
 (32, 'ROBOWARS', 'B.K SHROFF COLLEGE OF ARTS &M.H.SHROFF COLLEGE OF COMMERCE', 'FIRST', '2018', 'YASH', 'mech'),
 (33, 'FUERZA, ROBO SOCCER', 'KALSEKAR', 'FIRST', '2016', 'YASH DEVMURARI', 'mech');
+=======
+(1, 'SUPRA', 'BIC NOIDA NEW DELHI\r\n', 'First Prize\r\n', '2018', 'TEAM Aviators\r\n', 'auto'),
+(2, 'ISK-2016 GO KART\r\n', 'HYDERABAD\r\n', 'Sixth Rank', '2016', 'TEAM CHETAK\r\n', 'auto'),
+(3, 'ISK-2018 GO KART\r\n', 'VISHAKAPATNAM\r\n', 'Participation Certificate', '2018', 'TEAM TWISTED TORQUE\r\n', 'auto');
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 -- --------------------------------------------------------
 
@@ -105,7 +119,11 @@ INSERT INTO `common_data` (`data_id`, `dname`, `description`) VALUES
 (7, 'it', 'Information Technology'),
 (8, 'it-hod', 'Harshal Patil'),
 (9, 'civil', 'Civil'),
+<<<<<<< HEAD
 (10, 'civil-hod', 'Zulfiquar Ahmad'),
+=======
+(10, 'civil-hod', 'Zulfiqar Shaikh'),
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 (11, 'etrx', 'Electronics'),
 (12, 'etrx-hod', 'Ilahi Shaikh'),
 (13, 'elec', 'Electrical'),
@@ -126,7 +144,11 @@ CREATE TABLE IF NOT EXISTS `contents` (
   `content_type` varchar(20) NOT NULL,
   `dept` varchar(10) NOT NULL,
   PRIMARY KEY (`content_id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=latin1;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 --
 -- Dumping data for table `contents`
@@ -144,6 +166,7 @@ INSERT INTO `contents` (`content_id`, `content_desc`, `content_type`, `dept`) VA
 (9, 'M1: To nurture an effective teaching-learning process to provide in-depth knowledge of principles and its applications pertaining to Information technology and interdisciplinary areas leading to new technology.<br>\r\nM2: To provide an environment for students and faculty for continuous learning to explore, apply and transfer knowledge to meet global challenges.<br>\r\nM3: To inculcate creative thinking through innovative group work exercises by providing industry and department interactions during consultancy and sponsored research which enhances the entrepreneur skills, employability and research capabilities.\r\n', 'mission', 'it'),
 (10, 'PO 1: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.(Engineering knowledge)<br>\r\nPO 2: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.(Problem analysis)<br>\r\nPO 3: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.(Design/development of solutions)<br>\r\nPO 4: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.(Conduct investigations of complex problems)<br>\r\nPO 5: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.(Modern tool usage)<br>\r\nPO 6: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.(The engineer and society)<br>\r\nPO 7: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.(Environment and sustainability)<br>\r\nPO 8: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.(Ethics)<br>\r\nPO 9: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.(Individual and team work)<br>\r\nPO 10: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.(Communication)<br>\r\nPO 11: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.(Project management and finance)<br>\r\nPO 12: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.(Life-long learning)', 'po', 'it'),
 (11, 'PSO 1: Students will be able to demonstrate database, networking and programming technologies.<br>\r\nPSO 2: Students will be able to design an algorithm, component, or process to meet desired needs, within realistic constraints through analytical, logical and problem solving skills.', 'pso', 'it'),
+<<<<<<< HEAD
 (12, 'PEO 1: To prepare students to identify, formulate, and solve multifaceted and complex IT problems.<br>\r\nPEO 2: To teach core professional skills with latest information technologies that prepares students for immediate employment in Information Technology Industry.<br>\r\nPEO 3: Exhibit professional excellence through ethics, soft skills, leadership qualities as a responsible citizen with social interest.', 'peo', 'it'),
 (13, 'Information technology is one of the fastest growing technical areas in the world. We are also As a part of it,the department seeks to combine excellence in education and research with service to the industry. Our vision is to be recognized as innovative and leading Information Technology Department in the India and beyond.\r\n\r\nOur goal is to provide students with a balance of intellectual and practical experiences that enable them to serve a variety of societal needs.      \r\n\r\nWe train all students such a way that, they are compatible at national level as well as also stand at international level. Our highly qualified faculty members not only provide knowledge to the student but motivate them to be intellectuals and professionals in their approach.\r\n\r\nThe Department offers four year Bachelor Degree. In our department students are nurtured to become world-class software professionals as Project Managers, System Analysts or Team leaders in Industry or become Entrepreneurs in their own innovative way. I am sure in times to come; many students from our department will make indelible mark nationally and internationally in the field of Information Technology and make us proud we are having hard-working students, a committed faculty members and a very healthy work-culture, are the basic elements that comprise the Department of Information Technology.e are proud that we work students, dedicated teachers and a culture of very healthy workplace are the basic elements of the department. the information technology.If you really want to become the frontiers of Software Professionals then the IT department of Theem College of Engineering is the right place for you.', 'hod-msg', 'it'),
 (14, 'To be an Academic Excellence in delivering globally standard technical education with effective Teaching and Learning environment.', 'vision', 'comp'),
@@ -242,6 +265,9 @@ INSERT INTO `gallery` (`img_id`, `category`, `filename`, `img_desc`) VALUES
 (22, 'career-fair18', 'DSC_0296', 'abc'),
 (23, 'career-fair18', 'DSC_0305', 'abc'),
 (24, 'career-fair18', 'DSC_0405', 'abc');
+=======
+(12, 'PEO 1: To prepare students to identify, formulate, and solve multifaceted and complex IT problems.<br>\r\nPEO 2: To teach core professional skills with latest information technologies that prepares students for immediate employment in Information Technology Industry.<br>\r\nPEO 3: Exhibit professional excellence through ethics, soft skills, leadership qualities as a responsible citizen with social interest.', 'peo', 'it');
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 -- --------------------------------------------------------
 
@@ -263,6 +289,7 @@ CREATE TABLE IF NOT EXISTS `lab_detail` (
 --
 
 INSERT INTO `lab_detail` (`lab_id`, `lab_name`, `lab_desc`, `dept`) VALUES
+<<<<<<< HEAD
 ('1111', 'Theem makers vector', 'A free space for hobby projects,', 'mech'),
 ('A-001', 'HMC Lab', 'This lab includes different major test rigs equipped with digital temperature measurement system, tachometer [i.e. Test Rig of Pelton wheel, Francis turbine, Kaplan turbine, Air Blower Test Rig, Turbulent Flow Apparatus.\nStudents are able to learn about turbine performance like to verify discharge, water head, water energy supplied, Overall efficiency and specific speed of turbine. All these give a clear idea to the students about different turbines. Performance of blower is verified by determining its isentropic, static and volumetric efficiency. Academic has a special thrust on turbine performance and analysis. In a batch of students experiment can perform on 2 to 3 sets at a time. This gives an opportunity to explore the world of turbines and information about energy generation.', 'mech'),
 ('A-002', 'Fluid Mechanics', 'We have Bernoullis apparatus, calibration of Venturimeter & Orifice meter, losses in pipe friction apparatus, Reynolds apparatus, Pitot Tube, Wind Mill', 'mech'),
@@ -410,6 +437,12 @@ INSERT INTO `open_eresource` (`resource_id`, `rname`, `rlink`, `category`) VALUE
 (67, 'Searchenginereports', ' https://searchenginereports.net/plagiarism-checker', 'antiplag'),
 (68, 'Small SEO Tools', '  http://smallseotools.com/plagiarism-checker/', 'antiplag'),
 (69, 'Viper Plagiarism Checker', ' https://www.scanmyessay.com/', 'antiplag');
+=======
+('A-017', 'AUTOMOTIVE SYSTEM LAB\r\n', 'Automobile Lab established with the help of NAVNEET MOTORS AND BMW since then we have been able to renew and extend many automotive facilities.Tool Box with Specially designed handle for easy fit.. This laboratory is set to perform disassembly andassembly of automotive systems which includes detailed study about sub assemblies and function of different components.', 'auto'),
+('A-019-B', 'I.C.ENGINE LAB', 'This laboratory focuses on learning different CONCEPTS OF Internal Combustion Engine and its practical aspects, Such as Trial on Petrol / Diesel Engines as well as Performance for MORSE  test.', 'auto'),
+('A-020', 'VEHICLE MAINTENANCE', 'lab facility was opened. Since then,components and systems of car  set to perform engine and vehicle diagnosis practical\'s that deal with the learning concepts practically includes detailed study. Wheel Alignment machine\r\n Wheel Balancing machine\r\nOBD Scanner\r\nTyre changing machine Fuel injection pump machine', 'auto'),
+('A-021-B', 'AUTOTRONICS LAB', 'This laboratory focuses on basic study of electronic-components and systems of car Lead Acid Batteries, Battery charger', 'auto');
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 -- --------------------------------------------------------
 
@@ -420,6 +453,7 @@ INSERT INTO `open_eresource` (`resource_id`, `rname`, `rlink`, `category`) VALUE
 DROP TABLE IF EXISTS `publications`;
 CREATE TABLE IF NOT EXISTS `publications` (
   `publication_id` int(11) NOT NULL AUTO_INCREMENT,
+<<<<<<< HEAD
   `journal` varchar(200) NOT NULL,
   `conference` varchar(200) NOT NULL,
   `title` varchar(200) NOT NULL,
@@ -429,11 +463,23 @@ CREATE TABLE IF NOT EXISTS `publications` (
   `dept` varchar(10) NOT NULL,
   PRIMARY KEY (`publication_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
+=======
+  `emp_code` int(11) NOT NULL,
+  `title` varchar(50) NOT NULL,
+  `journal` varchar(50) NOT NULL,
+  `conference` varchar(50) NOT NULL,
+  `month` varchar(20) NOT NULL,
+  `year` int(11) NOT NULL,
+  `dept` varchar(10) NOT NULL,
+  PRIMARY KEY (`publication_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 --
 -- Dumping data for table `publications`
 --
 
+<<<<<<< HEAD
 INSERT INTO `publications` (`publication_id`, `journal`, `conference`, `title`, `month`, `year`, `emp_code`, `dept`) VALUES
 (1, 'International Journal of Scientific & Engineering Research (IJSER)', 'Multicon Conference 2018 ', 'Effect of Lubrication Condition on Surface Roughness in End Milling Operation by using AISI P20', 'February', 2018, 198, 'auto'),
 (2, 'Imperial Journal of Interdisciplinary', '', 'Active Four Wheel Steering', 'March', 2017, 368, 'auto'),
@@ -475,6 +521,10 @@ INSERT INTO `publications` (`publication_id`, `journal`, `conference`, `title`, 
 (38, 'IJEDR', '', 'CFD analysis of solar air heater having absorber plate roughened with compound turbulators', '', 2017, 384, 'mech'),
 (39, 'MSRUAS-SASTech Journal', '', 'Design and Analysis of Light Weight Formula SAE Chassis and Attenuator', '', 2017, 439, 'mech'),
 (40, 'ICEMTE', '', 'Prediction of Axial Loads and Life of Bearings of the Spindle System through ANSYS Programming Approach', '', 2017, 417, 'mech');
+=======
+INSERT INTO `publications` (`publication_id`, `emp_code`, `title`, `journal`, `conference`, `month`, `year`, `dept`) VALUES
+(1, 368, 'Active Four Wheel Steering', 'Imperial Journal of Interdisciplinary Research', '', 'March', 2017, 'auto');
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
 -- --------------------------------------------------------
 

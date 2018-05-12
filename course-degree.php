@@ -51,6 +51,7 @@ $dept_hod = $row5[2];
     <header id="header">
         <div class="top-bar">
             <div class="container">
+<<<<<<< HEAD
                 <div class="row"><a href="index.html"><img src="images/header.png" alt="logo" width="100%"></a></div>
 				<div class="row">
 					<div class="col-sm-3 col-xs-4">
@@ -60,6 +61,19 @@ $dept_hod = $row5[2];
                         
                     </div>
 					<div class="col-sm-2 col-xs-8">
+=======
+                <div class="row">
+                  		<a href="index.html"><img src="images/header.png" alt="logo" width="100%"></a>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i> (02525) 284909/ 284926</p></div>
+                    </div>
+					<div class="col-sm-6">
+                        <center><p class="deptname">Department of <?php echo $dept_desc;?> Engineering</p><center>
+                    </div>
+					<div class="col-sm-3">
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
                        <div class="social">
                             <ul class="social-share">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -76,11 +90,20 @@ $dept_hod = $row5[2];
                                 </form>
                            </div>
 						   -->
+<<<<<<< HEAD
 						</div>
                     </div>
                 </div>
 			</div>
         </div>
+=======
+							</div>
+                    </div>
+                </div>
+				
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -102,12 +125,16 @@ $dept_hod = $row5[2];
                             <ul class="dropdown-menu">
                                 <li><a href="about-us.html">Vision</a></li>
                                 <li><a href="about-us.html">Mission</a></li>
+<<<<<<< HEAD
 								<li><a href="about-us.html">About us</a></li>
 								<li><a href="about-us.html">Academic Overview</a></li>
 								<li><a href="about-us.html">Chairman's Message</a></li>
 								<li><a href="about-us.html">Director's Message</a></li>
 								<li><a href="about-us.html">Secretary's Message</a></li>
 								<li><a href="about-us.html">Principal's Message</a></li>
+=======
+								<li><a href="about-us.html">Messages</a></li>
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 								<li><a href="about-us.html">Admin</a></li>
                             </ul>
                         </li>
@@ -147,7 +174,11 @@ $dept_hod = $row5[2];
 										<li><a href="course-degree.php?dept=extc">Electronics & Telecom</a></li>
 										<li><a href="course-degree.php?dept=it">I.T</a></li>
 										<li><a href="course-degree.php?dept=mech">Mechanical</a></li>
+<<<<<<< HEAD
 										<li><a href="404.html">Humanities & Science</a></li>
+=======
+										<li><a href="course-degree.php?dept=hs">Humanities & Science</a></li>
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 									</ul>									
 								</li>	
                                 <li class="dropdown-submenu"><a href="#">Diploma <i class="fa fa-angle-right"></i></a>
@@ -159,12 +190,20 @@ $dept_hod = $row5[2];
 								</li>
                             </ul>
                         </li>
+<<<<<<< HEAD
                         <li><a href="gallery.php">Gallery</a></li>
+=======
+                        <li><a href="gallery.html">Gallery</a></li>
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 						<li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Student's Corner <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="404.html">Alumni</a></li>
+<<<<<<< HEAD
                                 <li><a href="library.php">Library</a></li>
+=======
+                                <li><a href="library.html">Library</a></li>
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 								<li><a href="404.html">Scholarship</a></li>
 								<li><a href="http://27.106.115.210/login/index.php"  target="_blank">Moodle</a></li>
                             </ul>
@@ -189,7 +228,11 @@ $dept_hod = $row5[2];
 			
             <div class="row">
                 <div class="col-xs-12 col-sm-9">
+<<<<<<< HEAD
                     <h2>More Info...</h2> 
+=======
+                    <h2>Tab</h2> 
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
                     <div class="tab-wrap">
                         <div class="media">
                             <div class="parrent pull-left">
@@ -289,7 +332,11 @@ $dept_hod = $row5[2];
 									 <div class="tab-pane" id="tab7">
                                         <div class="media">
 										<h4>&nbsp;&nbsp;Name of Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<<<<<<< HEAD
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description</h4>
+=======
+										&nbsp;&nbsp;&nbsp;Description</h4>
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 										
                                         <?php
 										$sql4 = "SELECT * FROM lab_detail where dept like '$dept' ";
@@ -323,6 +370,10 @@ $dept_hod = $row5[2];
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#content-->
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 
     <section class="pricing-area shortcode-item">
         <div class="container">
@@ -337,22 +388,34 @@ $dept_hod = $row5[2];
 						$sql3 = "SELECT * FROM publications where dept like '$dept' order by year desc";
 						$result3 = $connect->query($sql3);
 						while($row3 = $result3->fetch_array()) {
+<<<<<<< HEAD
 							$emp_code = $row3[6];
+=======
+							$emp_code = $row3[1];
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 							$sql31 = "SELECT * FROM staff_detail where emp_code='$emp_code' ";
 							$result31 = $connect->query($sql31);
 							$row31 = $result31->fetch_array();
 							$staff_name = $row31[2].' '.$row31[3].' '.$row31[4];
+<<<<<<< HEAD
 							
 							$journal = $row3[1];
 							$conference = $row3[2];
 							$title = $row3[3];
 							$month = $row3[4];
 							$year = $row3[5];
+=======
+							$title = $row3[2];
+							$journal = $row3[3];
+							$month = $row3[5];
+							$year = $row3[6];
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 							
 							echo '<li><div class="media accordion-inner">
                                         <div class="pull-left">
                                             <img class="img-responsive" src="images/staff-photos/'.$dept.'/'.$emp_code.'.png" height="100px" width="80px">
                                         </div>
+<<<<<<< HEAD
                                         <div class="media-body"><h4>'.$staff_name.'</h4>';
 							if(isset($conference) && $conference!=""){
 								echo '<p style="text-align:justify">Presented paper entitled "'.$title.'" in "'.$conference.'" in '.$month.' - '.$year.'</p>
@@ -361,6 +424,11 @@ $dept_hod = $row5[2];
                             echo '<p style="text-align:justify">Published paper entitled "'.$title.'" in "'.$journal.'" in '.$month.' - '.$year.'</p>
                                         </div></div></li>';
 							}
+=======
+                                        <div class="media-body"><h4>'.$staff_name.'</h4>
+                                             <p style="text-align:justify">Published paper entitled "'.$title.'" in "'.$journal.'" in '.$month.' - '.$year.'</p>
+                                        </div></div></li>';
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 						}
 						?>
                     </ul>
@@ -392,11 +460,19 @@ $dept_hod = $row5[2];
                                         </div></div></li>';
 						}
 						?>
+<<<<<<< HEAD
 					</ul>
+=======
+						<!--<li class="plan-action">
+                            <a href="" class="btn btn-primary">Sign up</a>
+                        </li>-->
+                    </ul>
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
                 </div>
 
             </div>
         </div>
+<<<<<<< HEAD
     </section>
 
     <section id="recent-works" class="shortcode-item">
@@ -404,6 +480,15 @@ $dept_hod = $row5[2];
             <h2>Departmental Gallery</h2>
             <div class="row">
                 <!-- <div class="col-xs-12 col-sm-4 col-md-3">
+=======
+    </section><!--/pricing_area-->
+
+    <section id="recent-works" class="shortcode-item">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
                         <div class="overlay">
@@ -414,6 +499,7 @@ $dept_hod = $row5[2];
                             </div> 
                         </div>
                     </div>
+<<<<<<< HEAD
                 </div>  -->  
 			
 				<?php
@@ -436,6 +522,104 @@ $dept_hod = $row5[2];
             </div>
         </div>
     </section>
+=======
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme</a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme</a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section><!--/#portfolio-->
+
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
     
 <!--     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">

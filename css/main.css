@@ -993,7 +993,11 @@ a.accordion-toggle  i{
 
 .tab-wrap{
   border:1px solid #e6e6e6;
+<<<<<<< HEAD
   margin-bottom: 10px;
+=======
+  margin-bottom: 20px;
+>>>>>>> 4ec23bbcd1d58f34ec58f6e26e6bfdd864f628cb
 }
 
 .tab-content{
